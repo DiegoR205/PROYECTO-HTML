@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul h2 {
+    padding: 15px;
+    text-decoration-color: aqua;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
